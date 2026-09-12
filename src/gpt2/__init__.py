@@ -1,2 +1,3 @@
-def main() -> None:
-    print("Hello from gpt2!")
+from .train import main
+
+__all__ = ['main']
